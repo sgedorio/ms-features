@@ -1,13 +1,69 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: MarineSnowOracle-Regular;
+  src: url(./fonts/MarineSnowOracle-Regular.otf) format('opentype');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: MarineSnowOracle-Bold;
+  src: url(./fonts/MarineSnowOracle-Bold.otf);
+}
+
+@font-face {
+  font-family: MarineSnowOracle-TripleRegular;
+  src: url(./fonts/MarineSnowOracle-TripleRegular.otf);
+}
+
+@font-face {
+  font-family: Oracle-09-Regular;
+  src: url(./fonts/Oracle-09-Regular.otf);
+}
+
+body {
+  background-color: black;
+  margin: 32px 32px;
+
+  /* Fixes font rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  color: white;
+  font-family: MarineSnowOracle-Bold;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 88.889% */
+  letter-spacing: -1px;
+
+  margin: 0;
+}
+
+h3 {
+  color: #FFF;
+  font-family: MarineSnowOracle-TripleRegular;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 88.889% */
+  letter-spacing: -2px;
+
+  margin: 0;
+}
+
+p, ol {
+  color: white;
+  font-family: MarineSnowOracle-Regular;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 0;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+
+  margin: 0;
+}
+
+ol {
+  font-family: Oracle-09-Regular;
 }
