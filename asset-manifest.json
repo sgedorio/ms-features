@@ -1,14 +1,19 @@
 {
   "files": {
-    "main.css": "/ms-features/static/css/main.31d6cfe0.css",
-    "main.js": "/ms-features/static/js/main.fd3430c3.js",
+    "main.css": "/ms-features/static/css/main.e1f67759.css",
+    "main.js": "/ms-features/static/js/main.fb7457da.js",
     "static/js/787.27a4dba4.chunk.js": "/ms-features/static/js/787.27a4dba4.chunk.js",
+    "static/media/MarineSnowOracle-Bold.otf": "/ms-features/static/media/MarineSnowOracle-Bold.de66c0749fabfe0310bd.otf",
+    "static/media/MarineSnowOracle-Regular.otf": "/ms-features/static/media/MarineSnowOracle-Regular.1d9e2ecd9e5755bbd015.otf",
+    "static/media/MarineSnowOracle-TripleRegular.otf": "/ms-features/static/media/MarineSnowOracle-TripleRegular.15b4a67e2c1d1ad2e999.otf",
+    "static/media/Oracle-09-Regular.otf": "/ms-features/static/media/Oracle-09-Regular.6f7033c0f40c224e6791.otf",
     "index.html": "/ms-features/index.html",
-    "main.fd3430c3.js.map": "/ms-features/static/js/main.fd3430c3.js.map",
+    "main.e1f67759.css.map": "/ms-features/static/css/main.e1f67759.css.map",
+    "main.fb7457da.js.map": "/ms-features/static/js/main.fb7457da.js.map",
     "787.27a4dba4.chunk.js.map": "/ms-features/static/js/787.27a4dba4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.fd3430c3.js"
+    "static/css/main.e1f67759.css",
+    "static/js/main.fb7457da.js"
   ]
 }
